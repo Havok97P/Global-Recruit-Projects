@@ -1,0 +1,663 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+	background: #000;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #000;
+}
+
+/* CSS Home */
+#home{
+	height: 70%;
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+}
+
+/* CSS Quem Somos */
+#quem-somos
+{
+	height: 700px;
+	display: inline-block;
+	width: 100%;
+	
+	background-image: url("img/background-quem-somos.png");
+	background-position: center;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	padding: 0;
+	}
+
+/* CSS Soluções */
+#soluc{
+	padding: 0;
+	height: 700px;
+	display: inline-block;
+	width: 100%;
+	background-image: url("img/background-solucoes.png");
+	background-position: center;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	position: relative;
+	}
+
+@font-face{
+	font-family:"HeadingPro-Regular";
+	src:url("fonts/HeadingPro-Regular.ttf")
+}
+#txt-1{
+	position: absolute;
+	color: white;
+	width: 330px;
+	left: 830px;
+	top: 180px;
+	font-size: 25px;
+	font-family: HeadingPro-Regular;
+}
+#txt-2{
+	position: absolute;
+	color: white;
+	width: 320px;
+	left: 830px;
+	top: 300px;
+	font-size: 20px;
+	font-family: HeadingPro-Light;
+}
+#txt-3{
+	position: absolute;
+	color: white;
+	width: 320px;
+	left: 830px;
+	top: 400px;
+	font-size: 20px;
+	font-family: HeadingPro-Light;
+}
+
+
+	
+	
+	
+	
+
+/* CSS Clientes */
+#clientes{
+	height: 700px;
+	display: inline-block;
+	width: 100%;
+	background-image: url("img/background-clientes.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+/* CSS O que dizem */
+#o-que-dizem{
+	height: 700px;
+	display: inline-block;
+	width: 100%;
+	background-image: url("img/background-o -que-dizem.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+/* CSS Projetos */
+#projetos{
+	height: 700px;
+	display: flex;
+	width: 100%;
+	background-image: url("img/background-projetos.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#parag_1{
+	margin: 0;
+    max-width: 300px;
+    height: 400px;
+    padding: 0;
+    position: relative;
+    left: 500px;
+    top: 270px;
+}
+#parag_2{
+    max-width: 350px;
+    height: 400px;
+	 
+    padding: 0;
+    position: relative;
+    left: 550px;
+	top:270px;
+	
+}
+#txt-4{
+    width: 100%;
+    font-size: 20px;
+    font-family: HeadingPro-Light;
+}
+#txt-5{
+    width: 100%;
+    font-size: 20px;
+    font-family: HeadingPro-Light;
+}
+
+/* CSS Contato */
+#contatos{
+	height: 700px;
+	display: inline-block;
+	width: 100%;
+	background-image: url("img/background-contato.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* CSS header - Navbar */
+#header{
+	width: 100%;
+	height: 70px;
+	background-image:url("img/retangulo-topo.jpg");
+	margin: 0px auto;
+	position: fixed;
+	z-index: 1;
+	
+}
+#header h1{
+	margin-top: 0px;
+	margin-left: 40%;
+	position: absolute;
+	top: 20px;
+	display: block;
+}
+#header h1:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 400ms;
+}
+#header h2{
+	margin-top: 0px;
+	margin-left: 85%;
+	position: absolute;
+	top: 20px;
+	display: block;
+}
+#header h2:hover{
+-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 400ms;
+}
+#header h3{
+	margin-top: 0px;
+	margin-left: 90%;
+	position: absolute;
+	top: 20px;
+	display: block;
+}
+#header h3:hover{
+-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 400ms;
+}
+ul#nav{
+	list-style: none;
+	padding-left: 0px;
+	display: block;
+	float: left;
+	margin-left: 180px;
+	margin-top: 0px;
+}
+div#menu{
+	margin-top: 0px;
+	margin-left: 30px;
+	position: absolute;
+	top: 20px;
+	display: block;
+	color: white;
+	
+}
+
+/* Menu Burguer */
+.img_burguer{
+			height: 100%;
+			display: flex;
+			align-items:center;
+			padding: 0;
+	top: 50px;
+}
+label:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 400ms;
+	
+}
+		#checkbox-menu{
+			position: absolute;
+			opacity: 0;
+		}
+		label{
+			cursor: pointer;
+			position: relative;
+			display: block;
+			height: 22px;
+			width: 30px;
+			top:30px;
+			left: 200px;
+		}
+		label span{
+			position: absolute;
+			display: block;
+			height: 5px;
+			width: 100%;
+			border-radius: 30px;
+			background: gold;
+			transition: 0.25s ease-in-out;
+		}
+		label span:nth-child(1){
+			top:0;
+		}
+		label span:nth-child(2){
+			top:8px;
+ 		}label span:nth-child(3){
+			top:16px;
+		}
+		#checkbox-menu:checked + label span:nth-child(1){
+			transform: rotate(-45deg);
+			top: 8px;
+			background: #000;
+			
+			
+		}
+		#checkbox-menu:checked + label span:nth-child(2){
+			opacity: 0;
+		}
+		#checkbox-menu:checked + label span:nth-child(3){
+			transform: rotate(45deg);
+			top: 8px;
+			background: #000;
+		}
+.nav_burguer li a{
+	color:#fff;
+	text-decoration: none;
+}
+.nav_burguer li a:hover{
+	font-weight: bold; 
+}
+@font-face{
+	font-family:"HeadingPro-Bold";
+	src:url("fonts/HeadingPro-Bold.ttf")}
+.nav_burguer li{
+	list-style-type: none;
+	    padding: 10px 0;
+    font-size: 25px;
+	font-family: HeadingPro-Bold;
+}
+.nav_burguer li:hover{
+	color: #000;
+}
+.nav_burguer{
+	    padding: 0;
+    margin: 0;
+    position: absolute;
+    transition: 0.10s ease;
+    display: none;
+    color: #fff;
+    z-index: 5;
+    left: 250px;
+}
+.menu-bg #menu_bar{
+	top:0;
+	position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 200px;
+	height: 350px;
+	background:#FFD700;
+	border-radius: 10%;
+	transition: 0.10s ease;
+	display: none;
+	margin-left: 180px;
+    margin-top: -10px;
+}
+#menu_bar{
+	top: 40px;
+}
+
+/* CSS Slide */
+#btn-mobile{
+	display:block;
+}
+#menu.active #menu{
+	display: flex;
+}
+
+/* CSS Slide */
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.slide.current {
+  opacity: 1;
+}
+.buttons button#next {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+}
+.buttons button#prev {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+.buttons button {
+  background-color: transparent;
+	border: none;
+}
+.buttons button:hover {
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 400ms;
+}
+
+@media (max-width: 500px) {
+  .slide .content {
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+  }
+
+  .slide.current .content {
+    transform: translateY(-300px);
+  }
+}
+
+
+
+/* Backgorund Images Slide */
+ 
+.slide:first-child {
+  background: url('img/slider-1.png') no-repeat
+    center top/cover;
+}
+.slide:nth-child(2) {
+  background: url('img/slider-2.png') no-repeat
+    center top/cover;
+}
+
+
+/* Colunas - Quem somos */
+*{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* CSS content - Quem somos */
+@font-face{
+	font-family:"HeadingPro-Light";
+	src:url("fonts/HeadingPro-Light.ttf")
+}
+#text-pag-2{
+	color: white;
+	text-align: justify;
+	font-family: HeadingPro-Light;
+	font-size: 20px;
+	margin-left: 30%;
+	margin-right: 0;
+	margin-top: 250px;
+	width: 300px;
+	height: 200px;
+	padding: auto;
+	display: block;
+}
+#video{
+	width: 0;
+	margin-top: 250px;
+    margin-left: 0%;
+    display: block;
+	position: absolute;
+}
+
+/* CSS Input's - Contatos */
+@font-face{
+	font-family:"HeadingPro-Bold";
+	src:url("fonts/HeadingPro-Bold.ttf")}
+#form{
+	position: relative;
+	padding: 10px;
+	width: 100px;
+	color: #323232;
+	font-family: HeadingPro-Bold;
+	top: 180px;
+	left: 175px;
+	
+}
+
+input{
+	position: relative;
+	background-color: #1d1d1d;
+	border-style: inset;
+	border:1px solid #404040;
+	color: white;
+	margin: 5px;
+	width: 400%;
+	font-family: HeadingPro-Bold;
+}
+input::placeholder{
+	color: white;
+	padding: 0px;
+	opacity: 0,5;
+}
+input:focus::-webkit-input-placeholder {
+   color: transparent;
+}
+input:focus:-moz-placeholder { /* Firefox 18- */
+   color: transparent; 
+	
+}
+input:focus::-moz-placeholder {  /* Firefox 19+ */
+   color: transparent;  
+}
+input:focus:-ms-input-placeholder {  
+   color: transparent;  
+}
+
+
+input#Mensagem{
+	height: 140px;
+	padding-bottom: 100px;
+}
+input#nome{
+	height: 25px;
+}
+input#E-mail{
+	height: 25px;
+}
+
+#form input.botao{
+	position: relative;
+	padding: 10px;
+	width: 100px;
+	background-color: #ffdd00;
+	color: #323232;
+	font-family: HeadingPro-Bold;
+	left: 230px;
+}
+#form input.botao:hover{
+	background-color: #fff;
+	transition: 6ms;
+}
+
+/* CSS logos - Contatos */
+.logo-botton{
+	display: flex;
+	gap: 0.5em;
+	position: relative;
+	max-width:7px;
+	max-height:10px;
+	width: auto;
+	height: auto;
+	left: 185px;
+	top: 265px;
+}
+.logo-botton h1:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 400ms;
+}
+.logo-botton h2:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+		transition: 400ms;
+}
+.logo-botton h3:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+	transition: 400ms;}
+
+
+/* CSS Google Maps */
+
+
+
+
+
+#mapa {
+	max-width:460;
+	max-height:400;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+	bottom: 50px;
+    height: 0;
+    overflow: hidden;
+}
+
+#mapa iframe,   
+#mapa object,  
+#mapa embed {
+    position: absolute;
+    top: 0;
+    left: 690px;
+    width: 460;
+    height: 400;
+}
+
+
+/*CSS Responsibilidade*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}
+
+
+
