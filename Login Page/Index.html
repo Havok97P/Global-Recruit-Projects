@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form>
+		<h1>Login</h1>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required>
+		<label for="password">Password:</label>
+		<div class="password-field">
+			<input type="password" id="password" name="password" required>
+		</div>
+		<input type="submit" value="Login">
+		<span id="error-message"></span>
+		<div class="remember-forgot">
+			<label class="remember-me">
+				<input type="checkbox" name="remember-me">
+				Remember me
+			</label>
+			<a href="#" class="forgot-password">Forgot Password?</a>
+		</div>
+		<div class="social-login">
+			<p>Or Login with:</p>
+			<a href="#" class="facebook-login">Facebook</a>
+			<a href="#" class="google-login">Google</a>
+		</div>
+	</form>
+	<script src="script.js"></script>
+</body>
+</html>
